@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Face</title>
+    <style type="text/css">
+        .credits {
+            font-family: "courier new, courier, monospace";
+        }
+        @font-face{
+            font-family: 'chunkFiveRegular';
+            src: url('fonts/chunkfive.eot');
+        }
+        h1, h2 {
+            font-family: chunkfiveregular, georgia, serif;
+        }
+        h2, li {
+            font-size: 80%
+        }
+        </style>
+</head>
+<body>
+    <h1>Font Face</h1>
+    <p class="credits">by TPS Sena</p>
+    <p class="intro">@font-face permite utilizar una fuenta, incluso si no 
+        esta instalada en el ordinador de la persona que navega, permitiendole
+        especificar una ruta a una copia de la fuenta, que se descagará si no 
+        esta en el equipo del usuario
+    </p>
+    <h2>Font-family</h2>
+    <p>Especifica el nombre de la fuente</p>
+    <h2>SRC</h2>
+    <p>Especifica la ruta a la fuente.</p>
+    <p>Hay fuentes de codigo abierto que se puede usar libremente.
+        Se puede encontrar fuentes en:
+    </p>
+        <ul>
+            <li>www.fontsquirrel.com</li>
+            <li>www.fontex.org</li>
+            <li>www.openfontlibrary.org</li>
+        </ul>
+</body>
+</html>

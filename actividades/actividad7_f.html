@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labelling Form Controls</title>
+</head>
+<body>
+    <form action="index">
+           <fieldset>
+               <legend> Ingrese los siguientes datos: </legend> <br /><br />
+               <label> Nombre completo: <br /> <input type="text" name="nombrecompleto"></label><br />
+               <label> E-mail: <br /> <input type="text" name="E-mail"></label><br />
+           </fieldset>
+           <fieldset>
+               <legend> Sus comentarios, nos hacen ser mejores.</legend> <br /><br />
+                <p> ¿Cómo escuchó de nosotros?:</p>                <select name="ladingpages">
+                    <option value="idrd">IDRD</option>
+                    <option value="google">Google</option>
+                    <option value="tecnosport">TecnoSport</option>
+                    <option value="linkedin">LinkedIn</option>
+                </select>
+                <p> ¿Qué tan probable es que recomiende nuestros servicios? </p>
+                <p> (Siendo 5 la máxima calificación)</p> 
+
+                <p>1<input type="radio" name="calificación" value="1" /></p>
+                <p>2<input type="radio" name="calificación" value="2" /></p>
+                <p>3<input type="radio" name="calificación" value="3" /></p>
+                <p>4<input type="radio" name="calificación" value="4" /></p>
+                <p>5<input type="radio" name="calificación" value="5" /></p>
+
+                <p> Dejanos saber como fue tu experiencia en Sportech Offer</p>
+                <textarea name="comments" cols="100" rows="5"></textarea>
+
+           </fieldset>
+
+</form>
+</body>
+</html>
